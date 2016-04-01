@@ -1,7 +1,8 @@
 {'targets': [{
     'target_name': 'leveldb'
   , 'variables': {
-        'ldbversion': '1.17.0'
+        'ldbversion': '1.17.0',
+        'node_win_onecore' : 0
     }
   , 'type': 'static_library'
     # Overcomes an issue with the linker and thin .a files on SmartOS
